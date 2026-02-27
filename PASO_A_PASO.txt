@@ -1,0 +1,46 @@
+# INSTRUCCIONES PARA INSTALAR Y CONTINUAR EL PROYECTO
+
+Sigue estos pasos para configurar el proyecto en tu otra computadora:
+
+## 1. Requisitos Previos (Instalar si no los tienes)
+- **Node.js**: Descárgalo en https://nodejs.org/ (Instala la versión "LTS").
+- **Git**: Descárgalo en https://git-scm.com/.
+- **Editor**: Se recomienda Visual Studio Code.
+
+## 2. Descargar el Proyecto
+Abre una terminal (PowerShell o CMD) y ejecuta:
+```bash
+git clone https://github.com/ochodesign/tres-hermanos-web.git
+```
+
+## 3. Entrar a la carpeta
+```bash
+cd tres-hermanos-web
+```
+
+## 4. Instalar librerías
+Este paso creará la carpeta 'node_modules' con todo lo necesario para que funcione:
+```bash
+npm install
+```
+
+## 5. Correr el proyecto
+Para empezar a programar y ver los cambios en tiempo real:
+```bash
+npm run dev
+```
+Luego abre el navegador en: http://localhost:5173
+
+---
+
+## 6. Cómo guardar tus avances (subir a GitHub)
+Cuando hagas cambios y quieras guardarlos en la nube, ejecuta estos 3 comandos en la terminal:
+
+1. Preparar cambios:
+   git add .
+
+2. Ponerle un nombre a tu avance:
+   git commit -m "Explica brevemente que hiciste"
+
+3. Subirlos:
+   git push origin main
